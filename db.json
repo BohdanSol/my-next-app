@@ -1,0 +1,19 @@
+{
+    "posts": [
+        {
+            "id": 1,
+            "title": "Js Post",
+            "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quae."
+        },
+        {
+            "id": 2,
+            "title": "React Post",
+            "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quae."
+        },
+        {
+            "id": 3,
+            "title": "Python Post",
+            "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quae."
+        }
+    ]
+}
