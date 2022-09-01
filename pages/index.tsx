@@ -1,19 +1,13 @@
 import Link from "next/link";
 import Head from "next/head";
 import MainLayout from "../components/MainLayout";
-import { useEffect, useState } from "react";
 import { IPost } from "../models/post";
-
-// antd
-import { Button, Space, DatePicker, Card } from 'antd';
-import { CiCircleFilled } from '@ant-design/icons';
 
 interface IMain {
     posts: IPost[];
 }
 
 export default function Index({ posts }: IMain) {
-    const onChange = () => {}
     return (
         <>
             <MainLayout title={'Home'}>
@@ -34,14 +28,6 @@ export default function Index({ posts }: IMain) {
                     ))
                 }
                 </ul>
-                <div style={{ padding: 100 }}>
-                    <Space direction="vertical">
-                        <Button type="primary">Primary Button</Button>
-                        <Button type="ghost">Ghost Button</Button>
-                        <DatePicker onChange={onChange} />
-                        <CiCircleFilled />
-                    </Space>
-                </div>
             </MainLayout>
         </>
     )

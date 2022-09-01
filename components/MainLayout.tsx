@@ -13,6 +13,7 @@ export default function MainLayout({ children, title  = "Title" }) {
                 <Link href="/"><a className="">Home</a></Link>
                 <Link href="/about"><a>About</a></Link>
                 <Link href="/about/author"><a>About author</a></Link>
+                <Link href="/order"><a>Order</a></Link>
             </nav>
             <main>
                 {children}
@@ -29,6 +30,7 @@ export default function MainLayout({ children, title  = "Title" }) {
                     display: flex;
                     justify-content: space-around;
                     align-items: center;
+                    z-index: 20;
                 }
                 nav a {
                     color: darkgreen;
